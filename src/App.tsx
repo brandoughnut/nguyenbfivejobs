@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -16,18 +15,19 @@ function App() {
   return (
     <BrowserRouter>
       <NavBarComponent/>
-      <img src={waveHeader}/>
-
+      <img src={waveHeader} alt='wavy shape'/>
       <div className='BG'>
-      <Routes>
-        <Route path='/' element={<HomePageComponent/>}/>
-        <Route path='/Google' element={<GooglePageComponent/>}/>
-        <Route path='/Adobe' element={<AdobePageComponent/>}/>
-        <Route path='/Intel' element={<IntelPageComponent/>}/>
-        <Route path='/Netflix' element={<NetflixPageComponent/>}/>
-        <Route path='/Nvidia' element={<NvidiaPageComponent/>}/>
-      </Routes>
-    </div>
+        <Routes>
+          <Route path='/' element={<HomePageComponent/>}/>
+          <Route path='/Google' element={<GooglePageComponent/>}/>
+          <Route path='/Adobe' element={<AdobePageComponent/>}/>
+          <Route path='/Intel' element={<IntelPageComponent/>}/>
+          <Route path='/Netflix' element={<NetflixPageComponent/>}/>
+          <Route path='/Nvidia' element={<NvidiaPageComponent/>}/>
+        </Routes>
+        <div className='footer'>
+        </div>
+      </div>
     </BrowserRouter>
   );
 }
