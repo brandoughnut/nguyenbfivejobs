@@ -1,25 +1,34 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavBarComponent from './components/NavBarComponent';
+import HomePageComponent from './components/pages/HomePageComponent';
+import GooglePageComponent from './components/pages/GooglePageComponent';
+import AdobePageComponent from './components/pages/AdobePageComponent';
+import IntelPageComponent from './components/pages/IntelPageComponent';
+import NetflixPageComponent from './components/pages/NetflixPageComponent';
+import NvidiaPageComponent from './components/pages/NvidiaPageComponent';
+import waveHeader from './wave.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+      <NavBarComponent/>
+      <img src={waveHeader}/>
+
+      <div className='BG'>
+      <Routes>
+        <Route path='/' element={<HomePageComponent/>}/>
+        <Route path='/Google' element={<GooglePageComponent/>}/>
+        <Route path='/Adobe' element={<AdobePageComponent/>}/>
+        <Route path='/Intel' element={<IntelPageComponent/>}/>
+        <Route path='/Netflix' element={<NetflixPageComponent/>}/>
+        <Route path='/Nvidia' element={<NvidiaPageComponent/>}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

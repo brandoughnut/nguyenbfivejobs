@@ -1,0 +1,19 @@
+.whiteFont {
+    color: white;
+  }
+
+.headerText {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.logoImg {
+    width: 25px;
+    height: 25px;
+}
+
+.btnHome {
+    border-radius: 25px;
+    width: 175px;
+    height: 45px;
+}
