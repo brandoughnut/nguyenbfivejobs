@@ -2,6 +2,10 @@
     color: white;
   }
 
+.homeBG{
+    height: 70vh;
+}
+
 .headerText {
     margin-left: 25%;
     margin-right: 25%;
@@ -16,4 +20,55 @@
     border-radius: 25px;
     width: 175px;
     height: 45px;
+}
+
+.googleImg {
+    background-image: url(../assets/googlehq.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.adobeImg {
+    background-image: url(../assets/adobehq.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.netflixImg {
+    background-image: url(../assets/netflixhq.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.intelImg {
+    background-image: url(../assets/intelhq.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.nvidiaImg {
+    background-image: url(../assets/nvidiahq.png);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.headerBG {
+    height: 90px;
+}
+
+.goalsImg {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 25px;
 }

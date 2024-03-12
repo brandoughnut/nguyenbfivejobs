@@ -25,8 +25,7 @@ function App() {
           <Route path='/Netflix' element={<NetflixPageComponent/>}/>
           <Route path='/Nvidia' element={<NvidiaPageComponent/>}/>
         </Routes>
-        <div className='footer'>
-        </div>
+        <div className='footer'></div>
       </div>
     </BrowserRouter>
   );

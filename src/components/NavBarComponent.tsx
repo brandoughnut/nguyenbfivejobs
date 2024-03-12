@@ -6,7 +6,7 @@ import './styles/style.css';
 
 function NavBarComponent() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className='navText'>
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +18,7 @@ function NavBarComponent() {
                 <Nav.Link className='mx-3' as={Link} to='/Netflix'>Netlix</Nav.Link>
                 <Nav.Link className='mx-3' as={Link} to='/Nvidia'>Nvidia</Nav.Link>
           </Nav>
-        <div className='whiteFont'>Home</div>
+        <div><a href="" className='navText' target='_blank' rel="noopener noreferrer">Additional</a></div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

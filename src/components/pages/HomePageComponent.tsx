@@ -29,7 +29,7 @@ const HomePageComponent = () => {
   }
 
   return (
-    <div className='text-center'>
+    <div className='text-center homeBG'>
       <h1>5 Places I Want to Work At.</h1>
       <p className='headerText mt-4'>Here the top 5 tech companies I would like to work at. I will dive into why I want to work there, skills needed and hypothetical goals.</p>
       <div className='mt-4'>
