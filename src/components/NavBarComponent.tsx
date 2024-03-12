@@ -18,7 +18,7 @@ function NavBarComponent() {
                 <Nav.Link className='mx-3' as={Link} to='/Netflix'>Netlix</Nav.Link>
                 <Nav.Link className='mx-3' as={Link} to='/Nvidia'>Nvidia</Nav.Link>
           </Nav>
-        <div><a href="" className='navText' target='_blank' rel="noopener noreferrer">Additional</a></div>
+        <div><a href="https://docs.google.com/document/d/1xDOtgafmS6hN5Yhwm_MlpSVJEXxlyPf2UgLiLuNWatw/edit?usp=sharing" className='navText' target='_blank' rel="noopener noreferrer">Additional</a></div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
