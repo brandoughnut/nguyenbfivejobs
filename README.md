@@ -1,3 +1,10 @@
+Name: Brandon Nguyen
+Date: 3/12/2024
+Lab Name: Jobs that Interest You
+Brief Description: Create a React application that features the top 5 place you want to work at.
+Peer Reviewer: 
+Peer Review Comments: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
