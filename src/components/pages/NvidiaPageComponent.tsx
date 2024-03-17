@@ -12,8 +12,7 @@ const NvidiaPageComponent = () => {
             <div className='mb-3'>
               <img className='headerBG img-fluid' src={nvidia} alt='google logo'/>
             </div>
-                <h3><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Senior-Infrastructure-System-Software-Engineer_JR1979841" className='careerText' target='_blank' rel="noopener noreferrer">Senior AI Infrastructure Services Software Engineer
-</a></h3>
+                <h3><a href="https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Senior-Infrastructure-System-Software-Engineer_JR1979841" className='careerText' target='_blank' rel="noopener noreferrer">Senior AI Infrastructure Services Software Engineer</a></h3>
                 <h5 className='mb-2'>Tech Stack</h5>
                 <ul>
                     <li>Python</li>
